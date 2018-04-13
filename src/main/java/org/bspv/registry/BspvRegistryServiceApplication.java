@@ -1,0 +1,12 @@
+package org.bspv.registry;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BspvRegistryServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BspvRegistryServiceApplication.class, args);
+	}
+}
